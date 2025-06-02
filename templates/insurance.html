@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Insurance Premium Prediction | Your Portfolio</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .project-header {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      padding: 3rem 0;
+      margin-bottom: 3rem;
+    }
+    .demo-video {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .project-carousel {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .project-carousel .carousel-item img {
+      object-fit: cover;
+      height: 400px;
+    }
+    .carousel-control-prev, .carousel-control-next {
+      width: 5%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+     <a class="navbar-brand" href="index.html">
+        <i class="fas fa-arrow-left me-2"></i> Back to Portfolio
+      </a>
+    </div>
+  </nav>
+
+  <!-- Project Header -->
+  <section class="project-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-4 fw-bold mb-3">Healthcare Insurance Premium Prediction</h1>
+          <div class="d-flex flex-wrap gap-2 mb-4">
+            <span class="badge bg-primary py-2 px-3">Scikit-learn</span>
+            <span class="badge bg-secondary py-2 px-3">XGBoost</span>
+            <span class="badge bg-info py-2 px-3">Streamlit</span>
+            <span class="badge bg-success py-2 px-3">Regression Analysis</span>
+          </div>
+          <p class="lead">Regression models to predict insurance premiums based on health data.</p>
+        </div>
+        <div class="col-lg-6">
+          <div id="projectCarousel" class="carousel slide project-carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+           <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="7.jpg" class="d-block w-100" alt="Crash Detection Model">
+              </div>
+              <div class="carousel-item">
+                <img src="8.jpg" class="d-block w-100" alt="Model Architecture">
+              </div>
+              <div class="carousel-item">
+                <img src="9.jpg" class="d-block w-100" alt="API Interface">
+              </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Details -->
+  <section class="container mb-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="mb-4">Project Overview</h2>
+        <p>This predictive modeling system estimates health insurance premiums based on individual health metrics, helping both insurers and customers understand pricing factors.</p>
+
+        <h3 class="mt-4 mb-3">Key Features</h3>
+        <ul class="list-unstyled">
+          <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Multiple regression models for premium prediction</li>
+          <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Comprehensive feature engineering pipeline</li>
+          <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> User-friendly Streamlit interface</li>
+          <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Model explainability features</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="demo-video">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/j0aYQLKX_5o?autoplay=1&mute=1&rel=0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <p class="text-muted text-center mt-2">Demo of the insurance premium prediction system</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Details -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Technical Implementation</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 card-title"><i class="fas fa-chart-line text-primary me-2"></i> Regression Models</h3>
+              <p class="card-text">Developed and compared multiple regression models including XGBoost, Random Forest, and Linear Regression.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 card-title"><i class="fas fa-cogs text-primary me-2"></i> Feature Engineering</h3>
+              <p class="card-text">Implemented advanced feature selection and transformation techniques to optimize model performance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 card-title"><i class="fas fa-laptop-code text-primary me-2"></i> Deployment</h3>
+              <p class="card-text">Deployed the best-performing model as an interactive web application using Streamlit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA Section -->
+<section class="py-5 text-center">
+  <div class="container">
+    <h2 class="mb-4">Explore the Project</h2>
+
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <a href="https://ml-healthcare-insurance-premium-prediction-project.streamlit.app/"
+         target="_blank"
+         class="btn btn-primary btn-lg px-4">
+        <i class="fas fa-play-circle me-2"></i> See Live Model
+      </a>
+
+      <a href="https://github.com/rehanalam1369/ml-healthcare-insurance-premium-prediction-project"
+         target="_blank"
+         class="btn btn-outline-dark btn-lg px-4">
+        <i class="fab fa-github me-2"></i> View on GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
